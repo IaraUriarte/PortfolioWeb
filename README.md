@@ -54,6 +54,14 @@ Hero en el diseño de Figma y en el sitio implementado:
 | ----------------------------------------------------------- | -------------------------------------------------------------------- |
 | ![Diseño de la sección Hero en Figma](img/hero-figma.png) | ![Sección Hero implementada en el sitio](img/hero-implementado.png) |
 
+Hero en mobile:
+
+| Figma | Implementado |
+| ----- | ------------ |
+| <img src="img/hero-mobile-figma.png" alt="Hero mobile en Figma" width="160"> | <img src="img/hero-mobile-implementado.png" alt="Hero mobile implementado en el sitio" width="160"> |
+
+Las capturas corresponden a anchos de viewport distintos: 302 px en Figma y 320 px en el sitio. Se muestran al mismo ancho en esta documentación, sin alterar sus proporciones.
+
 Menú mobile abierto en el diseño de Figma y en el sitio implementado:
 
 | Figma                                               | Implementado                                            |
@@ -62,8 +70,8 @@ Menú mobile abierto en el diseño de Figma y en el sitio implementado:
 
 Sección Highlights en Figma y en la aplicación:
 
-| Figma | Aplicación |
-| ----- | ---------- |
+| Figma                                                     | Aplicación                                                      |
+| --------------------------------------------------------- | ---------------------------------------------------------------- |
 | ![Sección Highlights en Figma](img/highlights-figma.png) | ![Sección Highlights en la aplicación](img/highlights-app.png) |
 
 ## Secciones del sitio
@@ -86,7 +94,6 @@ Sección Highlights en Figma y en la aplicación:
 - Tipografía Montserrat: [Google Fonts](https://fonts.google.com/specimen/Montserrat).
 - Las capturas de proyectos corresponden a sus respectivos sitios publicados.
 - El retrato fue provisto por la autora del portfolio.
-- Plantilla externa: pendiente de confirmar y documentar, si corresponde.
 
 ## Deploy
 

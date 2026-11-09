@@ -40,6 +40,20 @@ Cada proyecto incluye un caso de estudio en el sitio.
 | ----------------------------------------------------- | -------------------------------------------- | --------------------------------------------- |
 | ![Captura del portfolio personal](img/portfolio.webp) | ![Captura de Cubrí Seguros](img/cubri.webp) | ![Captura de Coffea Landing](img/coffea.webp) |
 
+## Comparación Figma e implementación
+
+Sección de proyectos en el diseño de Figma y en el sitio implementado:
+
+| Figma | Implementado |
+| ----- | ------------ |
+| ![Diseño de la sección Proyectos en Figma](img/proyectos-figma.png) | ![Sección Proyectos implementada en el sitio](img/proyectos-implementado.png) |
+
+Hero en el diseño de Figma y en el sitio implementado:
+
+| Figma | Implementado |
+| ----- | ------------ |
+| ![Diseño de la sección Hero en Figma](img/hero-figma.png) | ![Sección Hero implementada en el sitio](img/hero-implementado.png) |
+
 ## Secciones del sitio
 
 - Highlights

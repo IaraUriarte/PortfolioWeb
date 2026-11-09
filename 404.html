@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#0F5C5C">
+    <title>Página no encontrada · Iara Uriarte</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F5C5C'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='serif'%3EIU%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script>
+        try {
+            const savedTheme = localStorage.getItem('portfolio-theme');
+            if (savedTheme === 'dark' || savedTheme === 'light') {
+                document.documentElement.dataset.theme = savedTheme;
+            }
+        } catch (error) {
+            console.error('No se pudo recuperar el tema guardado.', error);
+        }
+    </script>
+</head>
+
+<body>
+    <header class="error-header container">
+        <a class="logo" href="/" aria-label="Iara Uriarte, inicio">IU</a>
+        <a href="/">Volver al inicio</a>
+    </header>
+
+    <main id="main" class="error-page container" aria-labelledby="error-title">
+        <p class="error-code" aria-hidden="true">404</p>
+        <p class="badge"><span class="dot" aria-hidden="true"></span>Enlace perdido</p>
+        <h1 id="error-title">Esta página no está por aquí.</h1>
+        <p class="error-description">Puede que el enlace haya cambiado o que la dirección esté mal escrita.</p>
+        <div class="actions">
+            <a class="btn btn-primary" href="/">Volver al inicio</a>
+            <a class="btn btn-secondary" href="/#projects">Ver proyectos</a>
+        </div>
+    </main>
+</body>
+
+</html>

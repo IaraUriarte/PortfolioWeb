@@ -90,7 +90,7 @@ Sección Highlights en Figma y en la aplicación:
 
 ## Deploy
 
-El sitio se publica en Netlify desde el repositorio de GitHub. No necesita comando de build; el directorio de publicación es la raíz del repositorio. Al subir cambios a la rama principal, Netlify genera un nuevo deploy.
+El sitio se publica en Netlify desde el repositorio de GitHub. No necesita comando de build; el directorio de publicación es la raíz del repositorio. La página `404.html` personalizada se sirve para las rutas inexistentes. Al subir cambios a la rama principal, Netlify genera un nuevo deploy.
 
 ## Entregables del proceso
 

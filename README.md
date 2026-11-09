@@ -44,15 +44,27 @@ Cada proyecto incluye un caso de estudio en el sitio.
 
 Sección de proyectos en el diseño de Figma y en el sitio implementado:
 
-| Figma | Implementado |
-| ----- | ------------ |
+| Figma                                                                 | Implementado                                                                   |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | ![Diseño de la sección Proyectos en Figma](img/proyectos-figma.png) | ![Sección Proyectos implementada en el sitio](img/proyectos-implementado.png) |
 
 Hero en el diseño de Figma y en el sitio implementado:
 
-| Figma | Implementado |
-| ----- | ------------ |
+| Figma                                                       | Implementado                                                         |
+| ----------------------------------------------------------- | -------------------------------------------------------------------- |
 | ![Diseño de la sección Hero en Figma](img/hero-figma.png) | ![Sección Hero implementada en el sitio](img/hero-implementado.png) |
+
+Menú mobile abierto en el diseño de Figma y en el sitio implementado:
+
+| Figma                                               | Implementado                                            |
+| --------------------------------------------------- | ------------------------------------------------------- |
+| ![Menú mobile en Figma](img/menu-mobile-figma.png) | ![Menú mobile implementado](img/menu-mobile-sitio.png) |
+
+Sección Highlights en Figma y en la aplicación:
+
+| Figma | Aplicación |
+| ----- | ---------- |
+| <img src="img/highlights-figma.png" alt="Sección Highlights en Figma" width="305"> | <img src="img/highlights-app.png" alt="Sección Highlights en la aplicación" width="305"> |
 
 ## Secciones del sitio
 

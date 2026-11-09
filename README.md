@@ -92,6 +92,10 @@ Sección Highlights en Figma y en la aplicación:
 
 El sitio se publica en Netlify desde el repositorio de GitHub. No necesita comando de build; el directorio de publicación es la raíz del repositorio. La página `404.html` personalizada se sirve para las rutas inexistentes. Al subir cambios a la rama principal, Netlify genera un nuevo deploy.
 
+Vista de la página 404 personalizada:
+
+![Página 404 personalizada](img/404-personalizada.png)
+
 ## Entregables del proceso
 
 - **Figma (research, wireframes, design system y prototipo):** [Ver archivo](https://www.figma.com/design/Nw4aP7B5C6ZdLXoTd7lvn7/Portfolio?node-id=31-848&t=o8x9XmZ3teSHozW6-1).

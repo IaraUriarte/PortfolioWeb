@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iara Uriarte · Diseñadora UX/UI y front-end</title>
+    <meta name="description"
+        content="Portfolio de Iara Uriarte, estudiante de Sistemas de Información y diseñadora UX/UI y front-end en formación. Conocé mis proyectos y formación.">
+    <meta property="og:title" content="Iara Uriarte · Diseño UX/UI y front-end">
+    <meta property="og:description"
+        content="Conocé los proyectos, la formación y el perfil de Iara Uriarte, estudiante de Sistemas de Información.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portfolio-uriarteiara.netlify.app/">
+    <meta property="og:image" content="https://portfolio-uriarteiara.netlify.app/img/portfolio-og.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Vista previa del portfolio de Iara Uriarte">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Iara Uriarte · Diseño UX/UI y front-end">
+    <meta name="twitter:description"
+        content="Conocé los proyectos, la formación y el perfil de Iara Uriarte, estudiante de Sistemas de Información.">
+    <meta name="twitter:image" content="https://portfolio-uriarteiara.netlify.app/img/portfolio-og.webp">
+    <meta name="theme-color" content="#0F5C5C">
+    <link rel="canonical" href="https://portfolio-uriarteiara.netlify.app/">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F5C5C'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='serif'%3EIU%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="container bar">
+            <a class="logo" href="#top" aria-label="Inicio">IU</a>
+            <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+                <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+            </button>
+            <nav id="menu" class="nav" aria-label="Principal">
+                <ul>
+                    <li><a href="#metrics">Highlights</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#experience">Formación</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="https://github.com/IaraUriarte" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                    <li><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar tema oscuro"
+                            title="Activar tema oscuro"><span aria-hidden="true">◐</span></button></li>
+                    <li><a class="btn btn-primary" href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="top" class="hero container">
+            <p class="badge"><span aria-hidden="true" class="dot"></span>Disponible para pasantías y freelance</p>
+            <h1>Iara Uriarte</h1>
+            <p class="role">Diseñadora UX·UI y desarrolladora front-end en formación</p>
+            <p class="lead">Diseño interfaces claras y las llevo a código. Investigo con personas reales antes de
+                dibujar la primera pantalla.</p>
+            <div class="actions">
+                <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+                <a class="btn btn-secondary" href="#contact">Contactarme</a>
+            </div>
+            <p class="meta">Concepción del Uruguay, Entre Ríos · UTC-3</p>
+        </section>
+
+        <section id="metrics" class="container" aria-label="Cifras destacadas">
+            <h2>Highlights</h2>
+            <ul class="metrics">
+                <li><strong>2</strong><span>años de Licenciatura en Sistemas de Información</span></li>
+                <li><strong>3</strong><span>proyectos en mi portfolio</span></li>
+                <li><strong>4</strong><span>herramientas de diseño</span></li>
+                <li><strong>≥90</strong><span>puntuación en Lighthouse</span></li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Proyectos</h2>
+            <div class="grid projects">
+                <article class="card">
+                    <img src="img/portfolio.webp" width="640" height="400"
+                        alt="Captura de la página principal del portfolio de Iara Uriarte" loading="lazy">
+                    <div class="card-body">
+                        <h3>Portfolio personal<small>Nov. 2026</small></h3>
+                        <p>Sitio personal que reúne mis proyectos, formación y perfil profesional.</p>
+                        <p><strong>Resultado:</strong> proyectos, formación y contacto reunidos en un solo lugar.</p>
+                        <ul class="chips">
+                            <li>Portfolio</li>
+                            <li>Diseño web</li>
+                            <li>Front-end</li>
+                        </ul>
+                        <div class="card-actions">
+                            <button class="btn btn-secondary" type="button" data-open="case-portfolio"
+                                aria-haspopup="dialog">Ver caso de estudio</button>
+                            <a class="btn btn-secondary" href="https://portfolio-uriarteiara.netlify.app/"
+                                target="_blank" rel="noopener noreferrer">Visitar sitio</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="img/cubri.webp" width="640" height="400"
+                        alt="Captura de la página principal de Cubrí Seguros, con opciones de cobertura" loading="lazy">
+                    <div class="card-body">
+                        <h3>Cubrí Seguros<small>Oct. 2026</small></h3>
+                        <p>Sitio para conocer coberturas y comenzar la cotización de seguros de forma digital.</p>
+                        <p><strong>Resultado:</strong> mostrar las coberturas con claridad orienta mejor el recorrido
+                            hacia la cotización.</p>
+                        <ul class="chips">
+                            <li>Diseño web</li>
+                            <li>Seguros</li>
+                            <li>Front-end</li>
+                        </ul>
+                        <div class="card-actions">
+                            <button class="btn btn-secondary" type="button" data-open="case-cubri"
+                                aria-haspopup="dialog">Ver caso de estudio</button>
+                            <a class="btn btn-secondary" href="https://cubriseguross.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Visitar sitio</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="img/coffea.webp" width="640" height="400"
+                        alt="Captura de la página principal de Coffea, una cafetería" loading="lazy">
+                    <div class="card-body">
+                        <h3>Coffea Landing<small>Sep. 2026</small></h3>
+                        <p>Landing page para descubrir la cafetería, su menú y su propuesta de panadería.</p>
+                        <p><strong>Resultado:</strong> organizar el menú y la información ayuda a descubrir la propuesta
+                            de la cafetería.</p>
+                        <ul class="chips">
+                            <li>Diseño web</li>
+                            <li>Landing page</li>
+                            <li>Front-end</li>
+                        </ul>
+                        <div class="card-actions">
+                            <button class="btn btn-secondary" type="button" data-open="case-coffea"
+                                aria-haspopup="dialog">Ver caso de estudio</button>
+                            <a class="btn btn-secondary" href="https://coffea-landing-uriarte-iara.netlify.app/"
+                                target="_blank" rel="noopener noreferrer">Visitar sitio</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="grid skills">
+                <article class="card pad">
+                    <h3>Diseño UX</h3>
+                    <p>Investigación, arquitectura de información y validación con usuarios.</p>
+                    <ul class="chips">
+                        <li>Entrevistas</li>
+                        <li>Card sorting</li>
+                        <li>Personas</li>
+                        <li>Test de usabilidad</li>
+                    </ul>
+                </article>
+                <article class="card pad">
+                    <h3>Diseño UI</h3>
+                    <p>Sistemas visuales consistentes, accesibles y documentados.</p>
+                    <ul class="chips">
+                        <li>Design system</li>
+                        <li>Tipografía</li>
+                        <li>Color y contraste</li>
+                        <li>Componentes</li>
+                    </ul>
+                </article>
+                <article class="card pad">
+                    <h3>Front-end</h3>
+                    <p>Maquetación semántica, responsive y accesible.</p>
+                    <ul class="chips">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Tailwind</li>
+                        <li>JavaScript básico</li>
+                    </ul>
+                </article>
+                <article class="card pad">
+                    <h3>Herramientas</h3>
+                    <p>Flujo de trabajo de diseño a producción.</p>
+                    <ul class="chips">
+                        <li>Figma</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Lighthouse</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="container">
+            <h2>Formación</h2>
+            <ol class="timeline">
+                <li>
+                    <h3>Estudiante de Licenciatura en Sistemas de Información</h3>
+                    <p class="when">2025 – actualidad · FCyT (UADER)</p>
+                    <ul>
+                        <li>Cursé materias de programación y arquitectura de computadoras, con prácticas de desarrollo y
+                            lógica de sistemas.</li>
+                        <li>Desarrollé proyectos de diseño y programación en equipo.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Proyectos prácticos de Diseño UX-UI</h3>
+                    <p class="when">2026 · FCyT</p>
+                    <ul>
+                        <li>Cubri Seguros y Landing Coffea.</li>
+                        <li>Implementé en código referencias de Figma, con Git y deploy automático en Netlify.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="about" class="container">
+            <h2>Sobre mí</h2>
+            <div class="about">
+                <img src="img/retrato.webp" width="320" height="400" alt="Retrato de Iara Uriarte con fondo blanco"
+                    loading="lazy">
+                <div>
+                    <p>Soy estudiante de Licenciatura en Sistemas de Información y disfruto crear experiencias digitales
+                        claras y fáciles de usar.
+                        Me interesa combinar diseño UX/UI y desarrollo front-end para convertir ideas en interfaces
+                        accesibles. Busco una oportunidad para seguir aprendiendo y aportar en proyectos digitales.</p>
+                    <ul class="grid principles">
+                        <li class="card pad">
+                            <h3>Creatividad</h3>
+                            <p>Busco ideas visuales y funcionales para resolver cada desafío.</p>
+                        </li>
+                        <li class="card pad">
+                            <h3>Curiosidad</h3>
+                            <p>Me gusta explorar nuevas herramientas y aprender cómo funcionan.</p>
+                        </li>
+                        <li class="card pad">
+                            <h3>Mejora continua</h3>
+                            <p>Aprendo de cada proyecto para seguir creciendo y mejorar mis ideas.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="contact">
+                <h2>¿Trabajamos juntos?</h2>
+                <p>Busco seguir creciendo en diseño UX/UI y desarrollo front-end. Si querés conversar sobre un proyecto
+                    o una oportunidad, me encantaría leerte.</p>
+                <div class="contact-actions">
+                    <a class="btn btn-light" href="mailto:iaraherlein0001@gmail.com">iaraherlein0001@gmail.com</a>
+                    <ul class="social">
+                        <li><a class="btn" href="https://www.linkedin.com/in/iara-uriarte-675148448/" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a class="btn" href="https://github.com/IaraUriarte" target="_blank"
+                                rel="noopener noreferrer">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container foot">
+            <p>© 2026 Iara Uriarte. Todos los derechos reservados.</p>
+            <nav aria-label="Pie de página">
+                <ul>
+                    <li><a href="#metrics">Highlights</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Formación</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="https://www.linkedin.com/in/iara-uriarte-675148448/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://github.com/IaraUriarte" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="credit">Hecho con HTML, CSS y JavaScript · Tipografía Montserrat · Alojado en Netlify</p>
+        </div>
+    </footer>
+
+    <dialog id="case-portfolio" aria-labelledby="case-portfolio-title">
+        <form method="dialog"><button class="close" aria-label="Cerrar caso de estudio">Cerrar</button></form>
+        <article class="case">
+            <h2 id="case-portfolio-title">Caso de estudio: Portfolio personal</h2>
+            <p class="when">Proyecto personal · 2026 · HTML, CSS, JavaScript, Git y Netlify</p>
+            <h3>Problema</h3>
+            <p>Necesitaba presentar mis trabajos, formación y perfil profesional en un mismo lugar, de manera clara y
+                fácil de recorrer.</p>
+            <h3>Proceso</h3>
+            <ol>
+                <li>Organicé el contenido en secciones conectadas por la navegación.</li>
+                <li>Diseñé tarjetas para mostrar cada proyecto con su descripción y enlace.</li>
+                <li>Implementé el diseño adaptable, el menú móvil y el modo claro y oscuro.</li>
+            </ol>
+            <h3>Solución</h3>
+            <p>Una página única con secciones de proyectos, habilidades, formación y presentación personal, además de
+                enlaces de contacto.</p>
+            <h3>Resultado</h3>
+            <p>Un portfolio publicado que reúne mis proyectos, habilidades, formación y datos de contacto.</p>
+        </article>
+    </dialog>
+
+    <dialog id="case-cubri" aria-labelledby="case-cubri-title">
+        <form method="dialog"><button class="close" aria-label="Cerrar caso de estudio">Cerrar</button></form>
+        <article class="case">
+            <h2 id="case-cubri-title">Caso de estudio: Cubrí Seguros</h2>
+            <p class="when">Proyecto web · 2026 · Diseño UI y desarrollo front-end</p>
+            <h3>Problema</h3>
+            <p>Al buscar un seguro, las personas necesitan entender qué opciones hay y cómo empezar una cotización sin
+                tener que descifrar información confusa.</p>
+            <h3>Proceso</h3>
+            <ol>
+                <li>Organicé la portada alrededor de la propuesta de contratación digital.</li>
+                <li>Presenté los tipos de cobertura en tarjetas con sus beneficios principales.</li>
+                <li>Distinguí la opción disponible de las que se anuncian como próximas.</li>
+            </ol>
+            <h3>Solución</h3>
+            <p>Una página que resume la propuesta de Cubrí, presenta las coberturas disponibles y dirige a la acción
+                para cotizar.</p>
+            <h3>Resultado</h3>
+            <p>La información principal y las alternativas de cobertura quedan organizadas en un recorrido directo
+                hacia la cotización.</p>
+        </article>
+    </dialog>
+
+    <dialog id="case-coffea" aria-labelledby="case-coffea-title">
+        <form method="dialog"><button class="close" aria-label="Cerrar caso de estudio">Cerrar</button></form>
+        <article class="case">
+            <h2 id="case-coffea-title">Caso de estudio: Coffea</h2>
+            <p class="when">Landing page · 2026 · Diseño UI y desarrollo front-end</p>
+            <h3>Problema</h3>
+            <p>Una cafetería necesita mostrar su identidad y ayudar a quienes la visitan a descubrir rápidamente su
+                café,
+                panadería y opciones del menú.</p>
+            <h3>Proceso</h3>
+            <ol>
+                <li>Organicé la portada para destacar la identidad visual de Coffea.</li>
+                <li>Distribuí la navegación entre las secciones principales del sitio.</li>
+                <li>Presenté la propuesta de café y panadería junto a una llamada a la acción.</li>
+            </ol>
+            <h3>Solución</h3>
+            <p>Una landing page con una portada visual, navegación por la oferta de la cafetería y acceso a la acción
+                para hacer un pedido.</p>
+            <h3>Resultado</h3>
+            <p>La identidad, el menú y la propuesta de panadería se presentan en un recorrido único que invita a
+                explorar y pedir.</p>
+        </article>
+    </dialog>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

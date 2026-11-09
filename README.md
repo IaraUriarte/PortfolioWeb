@@ -70,9 +70,9 @@ Menú mobile abierto en el diseño de Figma y en el sitio implementado:
 
 Sección Highlights en Figma y en la aplicación:
 
-| Figma                                                     | Aplicación                                                      |
-| --------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![Sección Highlights en Figma](img/highlights-figma.png) | ![Sección Highlights en la aplicación](img/highlights-app.png) |
+| Figma | Aplicación |
+| ----- | ---------- |
+| <img src="img/highlights-figma.png" alt="Sección Highlights en Figma" width="160"> | <img src="img/highlights-app.png" alt="Sección Highlights en la aplicación" width="160"> |
 
 ## Secciones del sitio
 

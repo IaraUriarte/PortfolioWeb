@@ -376,6 +376,16 @@ section {
   font-size: .9rem
 }
 
+#projects h2 {
+  margin-bottom: var(--s1)
+}
+
+.projects-order {
+  color: var(--muted);
+  font-size: .875rem;
+  margin-bottom: var(--s3)
+}
+
 /* Tarjetas */
 .grid {
   display: grid;
